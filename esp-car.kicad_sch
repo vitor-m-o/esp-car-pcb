@@ -3367,6 +3367,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TCRT5000:TCRT5000"
 			(pin_names
 				(offset 1.016)
@@ -4515,6 +4598,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 52.07) (xy 127 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679eb2f5-ebd4-4e5c-8768-cc9fb55fe37a")
+	)
+	(wire
+		(pts
 			(xy 148.59 181.61) (xy 146.05 181.61)
 		)
 		(stroke
@@ -5405,7 +5498,7 @@
 	)
 	(global_label "KEY"
 		(shape input)
-		(at 96.52 59.69 180)
+		(at 96.52 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5415,7 +5508,7 @@
 		)
 		(uuid "679ece9e-6f84-4225-bf76-4ccb0f683fd0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.0272 59.69 0)
+			(at 90.0272 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,22 +5542,22 @@
 	)
 	(global_label "S1"
 		(shape input)
-		(at 96.52 62.23 180)
+		(at 127 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6d3df8e3-af62-4e4d-a8cc-31b6b816d912")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.1158 62.23 0)
+			(at 132.4042 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5537,22 +5630,22 @@
 	)
 	(global_label "IN1"
 		(shape input)
-		(at 127 54.61 0)
+		(at 96.52 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "72cdb435-1dce-4502-853c-239330e197ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.13 54.61 0)
+			(at 90.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6175,7 +6268,7 @@
 	)
 	(global_label "IN4"
 		(shape input)
-		(at 127 52.07 0)
+		(at 132.08 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6185,7 +6278,7 @@
 		)
 		(uuid "b4560678-58fa-4f3f-8417-3966b7c8611b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.13 52.07 0)
+			(at 138.21 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,7 +6488,7 @@
 	)
 	(global_label "BUZZ"
 		(shape input)
-		(at 96.52 57.15 180)
+		(at 96.52 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6405,7 +6498,7 @@
 		)
 		(uuid "c6acd3d8-250c-419a-ba13-f7d7069ae8c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.5153 57.15 0)
+			(at 88.5153 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6945,7 +7038,7 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 96.52 54.61 180)
+		(at 88.9 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6955,7 +7048,7 @@
 		)
 		(uuid "f3cff853-5df4-4f9f-867a-c1d0f72935ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.0877 54.61 0)
+			(at 82.4677 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,22 +7192,22 @@
 	)
 	(global_label "S2"
 		(shape input)
-		(at 96.52 49.53 180)
+		(at 127 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fe39a3d6-7cba-4311-99cd-aa28febaccdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.1158 49.53 0)
+			(at 132.4042 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7308,6 +7401,72 @@
 			(project ""
 				(path "/d21b542b-1246-4c6e-b3e1-1cc2382a01d2"
 					(reference "EN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 54.61 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c69e32a-4758-44ba-ac71-3228847d9cf1")
+		(property "Reference" "H1"
+			(at 57.15 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 57.15 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 54.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 54.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/d21b542b-1246-4c6e-b3e1-1cc2382a01d2"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -7794,6 +7953,72 @@
 			(project "esp-car"
 				(path "/d21b542b-1246-4c6e-b3e1-1cc2382a01d2"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 67.31 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4107882d-c1cf-4bef-97a8-eadde61119a7")
+		(property "Reference" "H4"
+			(at 69.85 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 69.85 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "esp-car"
+				(path "/d21b542b-1246-4c6e-b3e1-1cc2382a01d2"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -8856,6 +9081,72 @@
 			(project ""
 				(path "/d21b542b-1246-4c6e-b3e1-1cc2382a01d2"
 					(reference "BotaoRotatorio1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 54.61 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95058682-2d21-468b-8a72-cf11ed1202b7")
+		(property "Reference" "H3"
+			(at 57.15 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 57.15 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 54.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 54.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "esp-car"
+				(path "/d21b542b-1246-4c6e-b3e1-1cc2382a01d2"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -10072,6 +10363,72 @@
 			(project "esp-car"
 				(path "/d21b542b-1246-4c6e-b3e1-1cc2382a01d2"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 67.31 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f48481a1-86f9-4eea-bc00-c7a56c9a488c")
+		(property "Reference" "H2"
+			(at 69.85 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 69.85 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 67.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 67.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "esp-car"
+				(path "/d21b542b-1246-4c6e-b3e1-1cc2382a01d2"
+					(reference "H2")
 					(unit 1)
 				)
 			)
