@@ -4604,22 +4604,22 @@
 	)
 	(global_label "IN3"
 		(shape input)
-		(at 127 54.61 0)
+		(at 96.52 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "04fcb1dd-6756-4b2f-ad97-00493347a0b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.13 54.61 0)
+			(at 90.39 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6582,28 +6582,6 @@
 			)
 		)
 	)
-	(global_label "INF_TE"
-		(shape input)
-		(at 132.08 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d2019e74-9ace-43a5-8a51-6c7c46369433")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.1733 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 43.18 34.29 0)
@@ -6650,7 +6628,7 @@
 	)
 	(global_label "INF_TD"
 		(shape input)
-		(at 137.16 39.37 0)
+		(at 127 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6660,7 +6638,7 @@
 		)
 		(uuid "d621f4bb-f513-4146-b569-239b10d7716a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.3743 39.37 0)
+			(at 136.2143 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,7 +7616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 93.98 180.34 0)
 			(effects
 				(font
@@ -7768,7 +7746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 105.41 180.34 0)
 			(effects
 				(font
@@ -8668,7 +8646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "IFSUL Camaquã:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 134.62 93.98 0)
 			(effects
 				(font
@@ -9339,7 +9317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "IFSUL Camaquã:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 134.62 105.41 0)
 			(effects
 				(font
@@ -10047,7 +10025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "IFSUL Camaquã:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 158.75 184.15 0)
 			(effects
 				(font
