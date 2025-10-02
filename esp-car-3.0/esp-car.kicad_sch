@@ -5,6 +5,129 @@
 	(uuid "d21b542b-1246-4c6e-b3e1-1cc2382a01d2")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Socket"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
@@ -4866,28 +4989,6 @@
 			)
 		)
 	)
-	(global_label "VCC"
-		(shape input)
-		(at 38.1 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1ec5f509-deec-4cd3-bc48-1cbed66c7cfc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.7138 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 147.32 181.61 0)
@@ -5152,6 +5253,28 @@
 			)
 		)
 	)
+	(global_label "C2"
+		(shape input)
+		(at 21.59 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d9d0632-e182-45fb-958e-465a72ee0b35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.0547 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 127 74.93 0)
@@ -5220,22 +5343,22 @@
 	)
 	(global_label "LE"
 		(shape input)
-		(at 127 64.77 0)
+		(at 96.52 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "48d700d7-c82f-4858-ace4-104b0393b403")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.1623 64.77 0)
+			(at 91.3577 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5478,6 +5601,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 127 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68908b7e-68e8-4b7c-ab80-6af7cea12f85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.4647 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5922,6 +6067,28 @@
 			)
 		)
 	)
+	(global_label "2"
+		(shape input)
+		(at 96.52 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9418f614-6023-465d-9d1b-b8e989d3192c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.3253 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 21.59 62.23 0)
@@ -6045,6 +6212,28 @@
 		(uuid "a6d845d0-f068-4cb2-b951-445bdb057255")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 147.5233 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 38.1 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aaf452c3-a35b-45db-bbab-256467dceced")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.5647 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,6 +6419,28 @@
 			)
 		)
 	)
+	(global_label "2"
+		(shape input)
+		(at 170.18 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b837fb43-72f9-4f92-8b58-e13345001880")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.9853 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 110.49 147.32 270)
@@ -6375,28 +6586,6 @@
 		(uuid "c09d7b91-beac-4539-88e3-e0c2a6de0b36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.0438 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 21.59 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c0bed1de-1b9a-4023-ab54-e10336ce8fa2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.2038 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6749,6 +6938,28 @@
 		(uuid "db08a8b5-1c52-4234-9e64-e70930031968")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.72 132.9048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2"
+		(shape input)
+		(at 127 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc187647-e4a8-4ca4-8e2b-eef830175878")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.4647 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8727,6 +8938,74 @@
 			(project "esp-car"
 				(path "/d21b542b-1246-4c6e-b3e1-1cc2382a01d2"
 					(reference "MotorE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 175.26 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66addae3-0d3c-4c7b-a671-2c3a856f8a0f")
+		(property "Reference" "extra2"
+			(at 176.53 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 176.53 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 175.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 175.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25e4a2bf-ba6b-4866-a7c0-63a141bf9041")
+		)
+		(instances
+			(project "esp-car"
+				(path "/d21b542b-1246-4c6e-b3e1-1cc2382a01d2"
+					(reference "extra2")
 					(unit 1)
 				)
 			)
