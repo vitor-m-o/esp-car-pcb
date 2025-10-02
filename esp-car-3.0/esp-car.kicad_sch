@@ -6494,6 +6494,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 184.15 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8d4b37d-ac55-4ea4-a170-08b4f2932982")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.15 142.7457 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "KEY"
 		(shape input)
 		(at 125.73 180.34 0)
@@ -7035,6 +7057,28 @@
 		(uuid "f2c79d53-b80e-4c61-9f9f-a1b500d54de5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 131.1342 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIN"
+		(shape input)
+		(at 184.15 128.27 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2ce7cb2-0e8f-4789-bbbf-598e89680212")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.15 122.2609 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9354,6 +9398,76 @@
 			(project "esp-car"
 				(path "/d21b542b-1246-4c6e-b3e1-1cc2382a01d2"
 					(reference "MotorD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 184.15 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ef14a88-ace4-41f6-be94-7c455bcf609b")
+		(property "Reference" "C2"
+			(at 187.96 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 187.96 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P3.50mm"
+			(at 185.1152 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a872384f-ced3-4bfd-93e9-8fc303be7083")
+		)
+		(pin "2"
+			(uuid "dc527f8a-77ea-47f2-b53a-23dc02ab200b")
+		)
+		(instances
+			(project "esp-car"
+				(path "/d21b542b-1246-4c6e-b3e1-1cc2382a01d2"
+					(reference "C2")
 					(unit 1)
 				)
 			)
