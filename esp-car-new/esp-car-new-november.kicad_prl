@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -45,6 +45,7 @@
       "pads",
       "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
@@ -58,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "esp-car.kicad_prl",
+    "filename": "esp-car-new-november.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -87,16 +88,16 @@
       9
     ],
     "col_widths": [
+      186,
+      171,
+      142,
       149,
-      137,
-      114,
-      119,
-      121,
+      151,
+      166,
+      168,
       133,
-      134,
-      106,
-      90,
-      90
+      112,
+      112
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
